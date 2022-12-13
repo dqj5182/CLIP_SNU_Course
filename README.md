@@ -33,7 +33,7 @@ Rather than using only a single sentence as input, we will test on various circu
 The code below performs zero-shot prediction using CLIP, as shown in Appendix B in the paper. This example takes an image from the [CIFAR-100 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), and predicts the most likely labels among the 100 textual labels from the dataset.
 
 ```
-python tests/zero_shot_cifar.py
+$ python tests/zero_shot_cifar.py
 ```
 
 The output will look like the following (the exact numbers may be slightly different depending on the compute device):
