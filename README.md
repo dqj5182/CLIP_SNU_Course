@@ -52,11 +52,11 @@ Overall accuracy:
 ```
 
 Note that you need to edit 
-'''
+```
 #pred_index_list.append(pred_index1)
 #pred_index_list.append(pred_index2)
 pred_index_list.append(pred_index3)
 #pred_index_list.append(pred_index4)
 #pred_index_list.append(pred_index5)
-'''
+```
 part to control which sentences to be ensembled
