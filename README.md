@@ -30,7 +30,7 @@ Rather than using only a single sentence as input, we will test on various circu
 
 ### Zero-Shot Prediction
 
-The code below performs zero-shot prediction using CLIP, as shown in Appendix B in the paper. This example takes an image from the [CIFAR-100 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), and predicts the most likely labels among the 100 textual labels from the dataset.
+The code below performs zero-shot prediction using CLIP, as shown in Appendix B in the paper. This example takes an image from the [CIFAR-100 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), and predicts the most likely labels among the 100 textual labels from the dataset. Different from original paper, our approach takes multiple sentences as inputs rather than a single sentence.
 
 ```
 $ python tests/zero_shot_cifar.py
